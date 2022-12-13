@@ -138,7 +138,11 @@ footer div p span {
 }
 /* finalizo pie*/
 
-/* octavos */
+/* solitaria */
+
+.solitaria{
+  align-items: center;
+}
 
 /* Contacto */
 .form h2{
