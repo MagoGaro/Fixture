@@ -141,6 +141,7 @@ footer div p span {
 /* solitaria */
 
 .solitaria{
+  margin: auto;
   align-items: center;
 }
 
@@ -179,4 +180,17 @@ footer div p span {
 	margin: auto;
 	margin-bottom: 2em;
 	cursor: pointer;
+}
+
+.ganador{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.ganador h2{
+  font-size: 5em;
+}
+.ganador img{
+  width: 50%;
+  height: auto;
 }
