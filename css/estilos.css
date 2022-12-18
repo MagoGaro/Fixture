@@ -194,3 +194,29 @@ footer div p span {
   width: 50%;
   height: auto;
 }
+
+
+@keyframes slideFondo{
+	0%, 20%, 100%{
+		opacity: 1;
+	}
+	30%, 90%{
+		opacity: 0;
+	}
+	
+}
+
+#a, #b{
+	position: absolute;
+	width: 100%;
+	height: 50vh;
+
+}
+#b{
+	animation: slideFondo 8s linear 0s infinite;
+}
+
+.f{
+    position: fixed !important;
+    bottom: 0;
+}
